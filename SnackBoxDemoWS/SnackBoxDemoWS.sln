@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnackBoxDemoWS", "SnackBoxDemoWS\SnackBoxDemoWS.csproj", "{A181D543-0450-480A-900B-343466391A08}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{CE079F04-06DD-41C8-B398-EF81BC3C9A19}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureWebsitePublishModule.psm1 = PublishScripts\AzureWebsitePublishModule.psm1
+		PublishScripts\Publish-WebApplicationWebsite.ps1 = PublishScripts\Publish-WebApplicationWebsite.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{3F3420AB-EF8F-488F-AEED-D0F18C46E7EA}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\SnackBoxDemoWS-WAWS-dev.json = PublishScripts\Configurations\SnackBoxDemoWS-WAWS-dev.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{6BF250F8-EC3B-4AE9-8E8C-09F5806101BF}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A181D543-0450-480A-900B-343466391A08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A181D543-0450-480A-900B-343466391A08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A181D543-0450-480A-900B-343466391A08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A181D543-0450-480A-900B-343466391A08}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3F3420AB-EF8F-488F-AEED-D0F18C46E7EA} = {CE079F04-06DD-41C8-B398-EF81BC3C9A19}
+	EndGlobalSection
+EndGlobal
